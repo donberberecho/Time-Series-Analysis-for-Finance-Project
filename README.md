@@ -45,8 +45,16 @@ We use the **World Stock Prices (Daily Updating)** dataset:
 
 ---
 
-## ⚙️ Installation
-Clone repo:
-```bash
-git clone https://github.com/your-username/time-series-analysis-finance.git
-cd time-series-analysis-finance
+This project demonstrates **Time Series Forecasting** techniques for financial markets using real-world stock datasets. It includes both **traditional statistical models** (ARIMA, SARIMA, Holt-Winters) and **deep learning models** (LSTM, GRU) for capturing sequential patterns in financial time series.
+
+The notebook explores:
+- Data preprocessing and visualization
+- Stationarity checks and transformations
+- Forecasting with ARIMA/SARIMA
+- Neural networks for sequence modeling
+- Model evaluation using RMSE, MAE
+- Comparative insights for business decision-making
+
+Dataset: [Kaggle – Dollar Exchange Dataset)](https://www.kaggle.com/datasets/cavinlobo/dollar-exchange)
+
+Goal: Provide a framework for **financial time series forecasting** that is reproducible and adaptable for other markets.
